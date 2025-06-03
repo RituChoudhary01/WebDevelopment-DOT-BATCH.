@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .wrapper{
+        width:80vw;
+        height: 80vh;
+        background-color: black;
+        color:red;
+        font-size:50px;
+        position:relative;
+    }
+    .top-left{
+        position:absolute;
+        top:10px;
+        left:10px;
+    }
+    .top-right{
+        position:absolute;
+        top:10px;
+        right:10px;
+    }
+    .bottom-left{
+        position:absolute;
+        bottom:10px;
+        left:10px;
+    }
+    .bottom-right{
+        position:absolute;
+        bottom:10px;
+        right:10px;
+    }
+    .center{
+        position:absolute;
+        left:40%;
+        top:45%;
+    }
+   </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-left">Top left</div>
+        <div class="top-right">Top right</div>
+        <div class="bottom-left">Bottom left</div>
+        <div class="bottom-right">Bottom Right</div>
+        <div class="center">Center</div>
+
+    </div>
+</body>
+</html>

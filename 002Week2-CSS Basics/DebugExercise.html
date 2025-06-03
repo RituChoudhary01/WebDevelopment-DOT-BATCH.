@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Exercise</title>
+    <style>
+       .Q1 span{
+            display:inline-block;
+            width:200px;
+            height:200px;
+            background-color: rgb(70, 46, 127);
+            color:white;
+        }
+
+        .Q2 img {
+				object-fit: contain;
+				width: 100%;
+			}
+			.Q2 {
+				margin: 20vh auto;
+				width: 21vw;
+				padding: 15px;
+				border-radius: 12px;
+				background: linear-gradient(#db0b5f, #6f00ed);
+				color: wheat;
+				/* box-shadow: 8px 8px 15px #e2e1e1; */
+				box-shadow: #e2e1e1 0px 10px 36px 0px, #e2e1e1 0px 0px 0px 1px;
+			}
+			.Q2 h2 {
+				font-family: "Baloo Bhai 2", cursive;
+				font-weight: 700;
+				font-weight: bold;
+				margin: 5px 0px;
+			}
+			.Q2 .text {
+				margin: 5px 0px;
+				font-family: "Baloo Bhai 2", cursive;
+				font-weight: 400;
+				line-height: 1.4em;
+			}
+
+        .Q3 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+     .Q3 .card {
+        width: 600px;
+        height: 400px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        position: relative;
+      }
+
+     .Q3 .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+     .Q3 .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        color: #fff;
+      }
+
+      .Q3 .caption h3 {
+        font-size: 2.75rem;
+        margin-bottom: 10px;
+        font-family: "Caveat", cursive;
+      }
+
+      .Q3 .caption p {
+        font-size: 1.25rem;
+        line-height: 1.5;
+        font-family: "Caveat", cursive;
+      }
+       
+       .Q4 {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+   .Q4 .music-card {
+      width: 45%;
+      display: flex;
+      height: 7rem;
+      background-color: #1f1f1f;
+      color: white;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      gap: 20px;
+      border-radius: 8px;
+      transition: all 0.3s;
+      box-shadow: 2px 2px 5px #606060a9;
+    }
+   .Q4 .music-card:hover {
+      background-color: #1f1f1fb9;
+    }
+    .Q4 .music-card img {
+      width:200px;
+      border-radius: 8px 0px 0 8px;
+    }
+    .Q4 .music-card h2 {
+      align-self: center;
+    }
+   .Q5{
+        width: 450px;
+        border: 5px solid black;
+        /* add this  */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .Q5 .item {
+        background-color: #008b8b;
+        border: 5px solid black;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+       }
+    </style>
+</head>
+<body>
+    <!-- Q1. two span element height and width  -->
+     <div class="Q1">
+        <span class="span1">I am span 1</span>
+        <span class="span2">I am span 2</span>
+     </div>
+     <!-- Q2. -->
+     <div class="Q2">
+			<img
+				src="https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
+				alt=""
+			/>
+			<div></div>
+			<h2>This is a Sample Heading</h2>
+			<div class="text">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+				perferendis quia iste nisi ea vero voluptatibus corrupti harum aliquam
+				modi.
+			</div>
+		</div>
+     <!-- Q3. -->
+     <main class="Q3">
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mike-b-170811.jpg&fm=jpg&w=640&h=360"
+          alt="car image" />
+        <div class="caption">
+          <h2>Card Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod, voluptate, quia, voluptates quae
+            voluptatibus quibusdam voluptatum quos quas quidem quia voluptates quae voluptatibus voluptatum quos quas
+            quidem quia
+          </p>
+        </div>
+      </div>
+    </main>
+     <!-- Q4. -->
+     <div class="Q4">
+        <div class="music-card">
+          <img
+            src="https://static-cse.canva.com/blob/978202/1600w-YmFtIRl8-qo.jpg"
+            alt=""
+          />
+          <h2>Liked Songs</h2>
+        </div>
+        <div class="music-card">
+          <img
+            src="https://cdn.musicvine.com/images/good-vibes-collection-cover-v2_5528980777329875.jpg"
+            alt=""
+          />
+          <h2>Happy Vibes</h2>
+        </div>
+        <div class="music-card">
+          <img
+            src="https://powermusic.in/folderthumb/924122782217-Arijit%20Singh%20Hindi%20Love%20New%20Style%20Humbing%202022%20-%20Dj%20SR%20Remix.jpg"
+            alt=""
+          />
+          <h2>Arijit Singh Mix</h2>
+        </div>
+        <div class="music-card">
+          <img
+            src="https://i.scdn.co/image/ab67616d00001e028dce351c5e4a62c2ea2dd498"
+            alt=""
+          />
+          <h2>Vaaste</h2>
+        </div>
+        <div class="music-card">
+          <img
+            src="https://a10.gaanacdn.com/images/albums/93/3398093/crop_480x480_3398093.jpg"
+            alt=""
+          />
+          <h2>The Carnival</h2>
+        </div>
+        <div class="music-card">
+          <img
+            src="https://c.saavncdn.com/735/Sanam-Best-Is-Back-Hindi-2016-500x500.jpg"
+            alt=""
+          />
+          <h2>This Is Sanam</h2>
+        </div>
+        </div>
+     <!-- Q5. -->
+     <div class="Q5">
+        <div class="item">HTML</div>
+        <div class="item">CSS</div>
+        <div class="item">JS</div>
+        <div class="item">React</div>
+        <div class="item">Vue</div>
+        <div class="item">Angular</div>
+        <div class="item">Express</div>
+        <div class="item">Mongo</div>
+      </div>
+</body>
+</html>

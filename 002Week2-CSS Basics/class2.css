@@ -1,0 +1,139 @@
+.linearG{
+    border:1px solid black;
+    height:200px;
+    width:150px;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to left,red,blue);
+    background-image: linear-gradient(to bottom,red,blue);
+    background-image: linear-gradient(to bottom right,red,blue,green);
+    background-image: linear-gradient(45deg,red,blue);
+    background-image: linear-gradient(256deg,red,blue);
+    background-image: linear-gradient(rgba(255,0,0,0),rgba(0,0,255,0.8));
+}
+.radialG{
+    border:1px solid black;
+    margin: 20px 0px;
+    height:200px;
+    width:150px;
+    background-image: radial-gradient(red,blue,orange);
+    background-image: radial-gradient(red 20%,blue 30%,orange);
+}
+.conicG{
+    border:1px solid black;
+    margin: 20px 0px;
+    height:200px;
+    width:150px;
+    background-image: conic-gradient(red,blue,orange);
+    background-image: conic-gradient(red 30%,blue 60%,orange);
+    background-image: conic-gradient(red 45deg,blue 90deg,orange);
+}
+.textSh{
+    text-shadow: 2px 2px 1px blueviolet;
+    text-shadow: 2px 2px 1px blueviolet,3px 3px 5px red;
+}
+.boxSh{
+    border:1px solid black;
+    height:200px;
+    width:150px;
+    box-shadow: 10px 10px 15px green;
+    box-shadow: -10px -10px 15px green;
+   box-shadow: -10px -10px 15px green, 15px 15px 30px brown;
+}
+.maxHeight{
+margin: 20px;
+width:200px;
+max-height:100px;
+border:1px solid red;
+overflow:scroll;
+}
+.minHeight{
+    width:200px;
+    margin:10px;
+    min-height:100px;
+    border:1px solid black;
+}
+.overF{
+    width:500px;
+    height:50px;
+    border:1px solid green;
+    overflow:visible;
+    overflow:hidden;
+    overflow:auto;
+    overflow:scroll;
+}
+.trs{
+    background-color: aqua;
+    transform: translate(100px,50px);
+    transform: translateX(100px);
+    transform: translateY(100px);
+    transform: rotate(45deg,-345deg);
+   transform: scale(2);
+   transform: skew(-290deg);
+}
+
+.wrapper>div{
+    display: inline-block;
+    width:150px;
+    height:150px;
+    background-color: aqua;
+    border:1px solid black;
+}
+
+#box3{
+    position:absolute;
+    top:1200px;
+    left:50px;
+}
+
+ #box4{
+    position:fixed;
+} 
+
+#box4{
+    position:sticky;
+    top:0px;
+}
+
+
+.wrapper{
+    width:100vw;
+    height: 2000px;
+    background-color: yellow;
+}
+div {
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+  }
+  
+  .perspective {
+    /* Includes a perspective to create a 3D space */
+    transform: perspective(400px) translateZ(-100px);
+    background-color: limegreen;
+  }
+  
+  .scaled-translated {
+    /* Includes a perspective to create a 3D space */
+    border:1px solid black;
+    margin-left:200px;
+    transform: perspective(400px) scaleZ(6) rotateX(45deg) rotateY(45deg) ;
+    background-color: pink;
+  }
+
+  div{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    border:1px solid black;
+}
+
+.translated{
+  transform: perspective(15px) translateZ(-10px);
+}
+
+.scaled{
+  margin-left:200px;
+  transform:rotateZ(30deg);
+  /* transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(30deg); */
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Grid Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f8f0f0;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: #f4ebe9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-rows: auto auto auto;
+            gap: 10px;
+        }
+        .category {
+            font-weight: bold;
+        }
+        .category.world {
+            color: blue;
+        }
+        .category.design {
+            color: green;
+        }
+        .title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .date {
+            font-weight: bold;
+            color: #666;
+        }
+        .content {
+            color: #333;
+        }
+        .read-more {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Blog Title</h1>
+    <div class="container">
+        <div class="card">
+            <span class="category world">World</span>
+            <div class="title">Example Blog Post</div>
+            <span class="date">Nov 12</span>
+            <p class="content">This card represents an example blog post.</p>
+            <a href="#" class="read-more">Continue reading</a>
+        </div>
+        <div class="card">
+            <span class="category design">Design</span>
+            <div class="title">Post title</div>
+            <span class="date">Nov 11</span>
+            <p class="content">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="read-more">Continue reading</a>
+        </div>
+        <div class="card">
+            <span class="category world">World</span>
+            <div class="title">Example Blog Post</div>
+            <span class="date">Nov 12</span>
+            <p class="content">This card represents an example blog post.</p>
+            <a href="#" class="read-more">Continue reading</a>
+        </div>
+        <div class="card">
+            <span class="category design">Design</span>
+            <div class="title">Post title</div>
+            <span class="date">Nov 11</span>
+            <p class="content">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="read-more">Continue reading</a>
+        </div>
+        <div class="card">
+            <span class="category world">World</span>
+            <div class="title">Another Blog Post</div>
+            <span class="date">Nov 10</span>
+            <p class="content">This is another example of a blog post with meaningful content.</p>
+            <a href="#" class="read-more">Continue reading</a>
+        </div>
+        <div class="card">
+            <span class="category design">Design</span>
+            <div class="title">Creative Post</div>
+            <span class="date">Nov 9</span>
+            <p class="content">This card highlights a creative post related to design concepts.</p>
+            <a href="#" class="read-more">Continue reading</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# Ignore node modules
+node_modules/
+
+# Ignore environment variable file
+.env
+
+# Optional: OS-specific or editor-specific files
+.DS_Store
+.vscode/
+Week4-TailwindCss/RazapayClone/
+Week9ReactBasics/ReactClass1/class1/
+Week9ReactBasics/ReactClass2/class2/
+Week9ReactBasics/ReactClass4/class4/

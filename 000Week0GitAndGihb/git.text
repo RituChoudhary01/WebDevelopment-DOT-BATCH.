@@ -1,0 +1,31 @@
+Q1.What is version Control?
+ Make save points that saves your project.
+ Provides total development freedom.
+ e.g. git,subversion,perforce.
+ Git is a version control tool.
+ Github is a service that hosts git repositories.(collaboration).
+ 
+
+ Creating a GIT REPO.
+ .Git init
+ .git clone
+ .git status
+ .git log
+
+Git:-
+Git is a version control system (VCS) that helps developers track changes in their code, collaborate with others, and manage different versions of a project efficiently.
+Github:-
+GitHub is a cloud-based platform that hosts Git repositories.
+Repositories:-
+A repository (repo) is a storage location where your project files, code, and version history are stored. It is used in Git and GitHub to manage and track changes in a project.
+
+
+
+ Ek normal folder hi git repo me change hota h or git repo kya hota h ek normal folder jisme some extra capability addtional capabality kya h a
+
+ git init:-change normal folder to repo.
+ to watch .git folder command+shift+period;
+ ls -al:- to list all files and directories in a detailed format.
+ 
+
+ 

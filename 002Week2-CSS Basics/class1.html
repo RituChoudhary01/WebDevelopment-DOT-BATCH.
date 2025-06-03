@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS basic class 1</title>
+    <link rel="stylesheet" href="class1.css">
+    <style>
+        p{
+            color:red;
+            font-size:larger;
+        }
+        h1{
+            background-color:aqua;
+        }
+        .green{
+            color:green;
+        }
+        .blue{
+            color:blue;
+        }
+         .small{
+            font-size:smaller;
+         }
+         .big{
+            font-size: larger;
+         }
+         #first-button{
+            color:red;
+         }
+         #intro-para{
+            background-color: burlywood;
+            color:rgb(6, 237, 241);
+         }
+         button:hover{
+            color:yellow;
+         }
+         a:hover{
+            color:green;
+         }
+         .link-color{
+            color:black;
+         }
+    </style>
+</head>
+<body>
+    <!-- Sellector in css -->
+    <!-- element selector -->
+    <p>This is my firat paragraph</p>
+    <h1>This is my first heading</h1>
+    <h1>this is my second heading</h1>
+    <p>Second para</p>
+    <!-- class selector -->
+    <p class="green">this para has green class</p>
+   <p class="green">this is another para with green class</p>
+   <p class="blue">this para has blue class</p>
+   <!-- ClassWork -->
+    <h1 class="small">heading 1 with class small</h1>
+    <h2 class="small">heading 2 with class small</h2>
+    <h3 class="small">heading 3 with class small</h3>
+    <h4 class="big">heading 4 with class big</h4>
+    <h5 class="big">heading 5 with class big</h5>
+    <h6 class="big">heading 6 with class big</h6>
+    <!-- Id Selector -->
+    <button id="first-button">Sumbit</button>
+    <p id="intro-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eligendi!</p>
+    <!-- Pseudo classes Selector:special state of element -->
+     <a class="link-color" href="https://thecodehelp.in">Buy DSA Supreme</a>
+     <!-- Multiple Selector/Grouping Selector -->
+    <!-- Universal Selector,Nested Selector,Attribute Selector -->
+    <!-- Ho to add Styling to HTML -->
+     <!-- inline css -->
+      <p style="font-style:italic;color:rgb(170, 255, 0)">Hello jee,kase ho sare</p>
+      <!-- internal css -->
+      <p>let's apply internal css on this</p>
+      <!-- external css link in head section using link tag -->
+       <!-- Specificity Highest Specificity(Style attribute---ID---Class,pseudo-class atttribute---Element(Lowest Specifity)) -->
+        <!-- Box Model -->
+        <div class="box" id="org">A</div>    
+        <div class="box" id="wht">B</div> 
+        <div class="box" id="grn">C</div> 
+     <!-- colors in css 
+      1.Hexadecimal colors
+      2.RGB color
+      3.Predefined names
+      4.HSL color -->
+      <!-- Font -->
+      <p style="font-family: cursive;">Use Font-family css property</p>
+      <p style="font-weight: bolder;">Use Font-weight css property</p>
+      <p style="font-style:italic;">Use Font-style css property</p>
+     <!-- How to use external Fonts -->
+      <span>I am use google fonts.</span>
+      <!-- units in css
+       1.Absolute unit(mm,cm,in,px);
+       2.Percentage unit
+       3.Relative unit
+          1.Relative to font size(em,rem)
+          2.Related to Document(vw,vh) -->
+          <p style="font-size:30px;">I am use pixel unit for increasing font size</p>
+          <p style="font-size:170%;">I am use % unit for increasing font size</p>
+          <div style="font-size:2em;">
+          <p style="font-size:2em;">I am use em unit for increasing font size. relative to parent font size 1em = font size of parent</p></div>
+          <p style="font-size:1.1rem;">I am use rem unit for increasing font size.this is relative to root (html) element Size of 1 rem is 16px.</p>
+          <div style="width:20vw;height:20vh; background-color: blueviolet;">I am box using vh or vw property for height and width respectively</div>
+</body>
+</html>

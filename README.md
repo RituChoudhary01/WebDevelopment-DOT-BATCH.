@@ -303,62 +303,50 @@ This week was pivotal in understanding how to make web pages not only functional
 
 ---
 
----
-
-### 🔹 Week 5–8: JavaScript & DOM
-
-| Week | Topics Covered |
-|------|----------------|
-| 5    | JavaScript Fundamentals – Variables, Loops, Functions |
-| 6    | Arrays, Objects, ES6+ Features, HOFs |
-| 7    | DOM Manipulation – Events, Selectors, Dynamic UI |
-| 8    | Projects – Image Slider, Form Validator, Light/Dark Toggle |
+# 🎨 Week 4 – Tailwind CSS Journey
+_Folder: `004Week3-TailwindCss`_
+Welcome to **Week 4** of my Web Development journey!  
+This week, I learned how to build beautiful and responsive websites using **Tailwind CSS** – a utility-first CSS framework that makes styling fast and easy.
 
 ---
 
-### 🔹 Week 9–12: React.js
+## 📚 What I Learned
 
-| Week | Topics Covered |
-|------|----------------|
-| 9    | React Basics – Components, Props, JSX |
-| 10   | State, useEffect, Events, Conditional Rendering |
-| 11   | Routing, Lifting State Up, Controlled Inputs |
-| 12   | Projects – React Blog, ToDo App, Weather App |
-
----
-
-### 🔹 Week 13–16: Backend with Node.js + Express
-
-| Week | Topics Covered |
-|------|----------------|
-| 13   | Node.js – Modules, File System, Core APIs |
-| 14   | Express – Routing, Middleware, REST APIs |
-| 15   | Authentication – JWT, Bcrypt, Protected Routes |
-| 16   | Projects – Notes API, Auth Backend, File Uploads |
+- Basics of Tailwind CSS and how to set it up
+- Using utility classes to style elements quickly
+- Creating responsive layouts using Flexbox and Grid
+- Making modern UI designs with hover effects and animations
+- Building full web pages with only utility classes
 
 ---
 
-### 🔹 Week 17–20: MongoDB Integration
+## 💻 Projects Built
 
-| Week | Topics Covered |
-|------|----------------|
-| 17   | MongoDB Basics – NoSQL concepts, Compass UI |
-| 18   | Mongoose – Schema, Models, Population |
-| 19   | Connecting MongoDB with Express Backend |
-| 20   | Projects – Blog App Backend, User DB APIs |
+### 🟢 Razorpay Clone  
+A responsive homepage inspired by Razorpay, featuring clean sections, gradients, and smooth layout.  
+🔗 [Live Demo](https://razapay-clone.vercel.app)
 
----
-
-### 🔹 Week 21–24: Full Stack Projects + Deployment
-
-| Week | Topics Covered |
-|------|----------------|
-| 21   | Project Planning – UI/UX, Folder Structure |
-| 22   | Full-Stack MERN Projects |
-| 23   | Deployment – Vercel, Netlify, Render |
-| 24   | Resume Building, GitHub Profile Optimization |
+### 🟣 Discord Clone  
+A clone of Discord's homepage with full-width layout, responsive design, and modern sections.  
+🔗 [Live Demo](https://discord-clone-lac-beta.vercel.app)
 
 ---
 
-## 🗂️ Repository Structure
+## 🎯 Key Learnings
+
+- Built real websites using only Tailwind CSS
+- Understood mobile-first and responsive design
+- Practiced creating animations and transitions
+- Improved speed and consistency in styling pages
+
+---
+
+## ✅ Weekly Summary
+
+Tailwind CSS helped me build websites faster and better. This week gave me the confidence to create real-world layouts without writing any custom CSS.  I’m now more comfortable with responsive design and ready to move to more advanced projects!
+
+---
+
+
+
 

@@ -346,6 +346,274 @@ A clone of Discord's homepage with full-width layout, responsive design, and mod
 Tailwind CSS helped me build websites faster and better. This week gave me the confidence to create real-world layouts without writing any custom CSS.  I’m now more comfortable with responsive design and ready to move to more advanced projects!
 
 ---
+# 📘 Week 5 – JavaScript Basics
+
+**Folder**: `005week5-jsBasics`
+
+Welcome to **Week 5** of my Web Development DOT Batch journey!  
+This week focused on learning the **basics of JavaScript**, the programming language that adds logic and interactivity to web pages.
+
+---
+
+## 📝 Topics Covered
+
+### 🔹 Introduction to JavaScript
+- What is JavaScript and why it's used in web development
+- Adding JavaScript to HTML with `<script>` tag
+- Using `console.log()` for output
+
+### 🔹 Variables and Data Types
+- Declaring variables with `var`, `let`, and `const`
+- Understanding data types: string, number, boolean, null, undefined
+
+### 🔹 Operators and Expressions
+- Arithmetic operators: `+`, `-`, `*`, `/`, `%`
+- Assignment operators: `=`, `+=`, `-=`, etc.
+- Comparison operators: `==`, `===`, `!=`, `!==`, `>`, `<`
+- Logical operators: `&&`, `||`, `!`
+
+### 🔹 Conditional Statements
+- `if`, `else if`, and `else` conditions
+- `switch` statement for multiple conditions
+
+### 🔹 Loops
+- `for` loop
+- `while` loop
+- `do...while` loop
+
+### 🔹 Functions
+- Declaring functions using `function` keyword
+- Function parameters and return values
+- Introduction to arrow functions (`=>`)
+
+---
+
+## 🧪 Practice Files
+
+This folder contains several practice files to apply the concepts learned:
+
+| File/Folder Name       |
+|-----------------|
+| `class1`        |
+|`class2`         |
+| `class3`        |
+| `class4`        |
+
+---
+
+## 🎯 Key Learnings
+
+- Learned how to declare and use variables
+- Understood JavaScript data types and operators
+- Practiced writing conditional logic and loops
+- Gained confidence in writing and calling functions
+- Strengthened problem-solving with practice exercises
+
+---
+
+## ✅ Week Summary
+
+This week helped me build a strong foundation in JavaScript programming.By focusing on the basics like variables, conditions, loops, and functions, I am now comfortable writing simple JavaScript code and solving beginner-level problems.This sets the stage for exploring **DOM manipulation** and **real-world interactivity** in the coming weeks.
+
+---
+
+# 📘 Week 6 – JavaScript DOM Manipulation & Modern JS
+
+**Folder**: `006week6jsDomMunaplati+modernjs`
+
+Welcome to **Week 6** of my Web Development DOT Batch journey!  
+This week, I explored how to make web pages interactive using **JavaScript DOM Manipulation** and learned about modern JavaScript features introduced in ES6 and beyond.
+
+---
+
+## 📝 Topics Covered
+
+### 🔹 DOM (Document Object Model) Manipulation
+- Understanding the DOM tree structure
+- Selecting elements using:
+  - `getElementById()`
+  - `getElementsByClassName()`
+  - `getElementsByTagName()`
+  - `querySelector()`
+  - `querySelectorAll()`
+- Modifying content and attributes:
+  - `textContent`, `innerText`, `innerHTML`
+  - `setAttribute()`, `getAttribute()`
+- Changing styles dynamically with `style` property
+
+### 🔹 Event Handling
+- Adding event listeners using `addEventListener()`
+- Handling common events like `click`, `mouseover`, `mouseout`, `keydown`, and `submit`
+- Understanding the `event` object and its properties
+
+### 🔹 Creating and Removing Elements
+- Creating new elements with `createElement()`
+- Appending elements using `appendChild()` and `append()`
+- Removing elements with `removeChild()` and `remove()`
+
+### 🔹 Modern JavaScript (ES6+)
+- Declaring variables with `let` and `const`
+- Arrow functions (`=>`)
+- Template literals using backticks (`` ` ``)
+- Destructuring arrays and objects
+- Spread (`...`) and rest (`...`) operators
+- Default parameters in functions
+
+---
+
+## 🧪 Practice Files
+
+This folder contains several practice files to reinforce the concepts learned:
+
+| File/Folder Name            | 
+|-----------------------|
+| `class1`        |
+|`class2`         |
+| `class3`        |
+| `class4`        |
+| `incrementCount` |
+| `Modal`| 
+
+---
+
+## 🎯 Key Learnings
+
+- Learned how to select and manipulate DOM elements dynamically
+- Understood how to handle user interactions through event listeners
+- Gained experience in creating and modifying HTML elements using JavaScript
+- Explored modern JavaScript features to write cleaner and more efficient code
+
+---
+
+## ✅ Week Summary
+
+This week was pivotal in enhancing the interactivity of web pages. By mastering DOM manipulation and embracing modern JavaScript features, I can now create dynamic and responsive user interfaces. These skills are essential for building real-world web applications and set the foundation for learning advanced topics like frameworks and libraries.
+---
+# 📘 JavaScript Practice Exercises
+
+**Folder**: `007jsPracticsExercise`
+This week was dedicated to **strengthening JavaScript fundamentals** through focused practice exercises. I solved 50 JavaScript problems to build confidence and fluency in coding.
+
+---
+
+## 📝 What's Inside
+
+This folder contains **5 JavaScript files**, each with **10 practice questions** covering key JavaScript concepts such as:
+
+- Conditional Statements  
+- Loops  
+- Functions  
+- Arrays and Strings  
+- Logic Building
+
+---
+
+## 📂 Practice Files
+
+| File Name         | 
+|-------------------|
+| `jsExercise1.js`    | 
+| `jsExercise2.js`    | 
+| `jsExercise3.js`    |
+| `jsExercise4.js`    | 
+| `jsExercise5.js`    | 
+Each file contains **10 beginner-to-intermediate level questions** with a focus on real-world logic, syntax mastery, and problem-solving.
+
+---
+
+## 🎯 Key Learnings
+
+- Strengthened core JavaScript concepts through hands-on coding
+- Gained confidence in writing clean and correct syntax
+- Improved logical thinking and approach to problem-solving
+- Identified common mistakes and learned debugging strategies
+
+---
+
+# 📘 Week 7 – JavaScript Mini Projects
+
+**Folder:** `008week7JsMiniProject`
+
+Welcome to **Week 7** of my Web Development DOT Batch journey!  
+This week, I built three practical JavaScript mini projects to strengthen my skills with real-world applications.
+
+---
+
+## 💻 Projects
+
+### 🕵️‍♂️ Dev Detective  
+A GitHub profile searcher that fetches user details using the GitHub API.  
+Users can find GitHub profiles by username and view bio, repositories, followers, and more.
+🔗 [Live Demo](https://dev-detective-project-bnsv.vercel.app)
+
+### 🔐 Password Generator  
+A customizable password generator that allows users to set password length and select character types (uppercase, lowercase, numbers, symbols).  
+Includes copy-to-clipboard functionality and password strength indicator.
+🔗 [Live Demo](https://password-generator-app-eight-bice.vercel.app)
+
+### 🌤️ Weather App  
+A simple weather application that fetches live weather data from the OpenWeatherMap API.  
+Users can search any city and get information like temperature, humidity, wind speed, and weather conditions.
+🔗 [Live Demo](https://weather-app-phi-orcin.vercel.app)
+
+---
+
+## 🎯 Key Learnings
+
+- Working with APIs (GitHub and OpenWeatherMap)
+- Handling asynchronous JavaScript with fetch and promises
+- Manipulating the DOM dynamically based on API responses
+- Implementing UI logic for interactivity and user feedback
+- Strengthening JavaScript fundamentals through practical projects
+
+---
+
+## ✅ Week Summary
+
+This week was focused on applying JavaScript fundamentals in real-world scenarios by building interactive applications.These mini projects helped me understand API integration, event handling, and user experience improvements, preparing me for more advanced projects ahead.
+
+---
+
+# 📘 Week 8 – JavaScript Mini Project : Tic Tac Toe Game
+
+**Folder:** `009week8jsminiproject2`
+
+Welcome to **Week 8** of my Web Development DOT Batch journey!  
+This week, I focused on building a classic **Tic Tac Toe** game using JavaScript, HTML, and CSS.
+
+---
+
+## 🎮 Project: Tic Tac Toe Game
+
+A simple and interactive Tic Tac Toe game for two players.  
+Players take turns to mark X or O on a 3x3 grid. The game detects win conditions, draws, and allows restarting the game.
+🔗 [Live Demo](https://dev-detective-project-hfnz.vercel.app)
+
+
+
+## 🎯 Key Learnings
+
+- Implemented game logic for win/draw conditions  
+- Practiced DOM manipulation and event listeners  
+- Managed game state and player turns  
+- Improved problem-solving skills through interactive UI
+
+---
+
+## ✅ Week Summary
+
+This week’s project helped me solidify my understanding of JavaScript fundamentals, especially in building interactive applications that respond to user actions.  
+Creating this Tic Tac Toe game was a fun and effective way to enhance my logic and coding skills.
+
+---
+
+
+
+
+
+
+
+
 
 
 

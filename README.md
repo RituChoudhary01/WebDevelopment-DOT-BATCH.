@@ -260,24 +260,31 @@ Welcome to **Week 3** of my Web Development DOT Batch journey! This week focused
 
 This folder contains several practice files to apply the concepts learned:
 
-| File Name                  | Description                                 |
-|----------------------------|---------------------------------------------|
-| `animation-practice.html`  | Basic animations using `@keyframes`         |
-| `transition-demo.html`     | Demonstrating smooth transitions            |
-| `responsive-layout.html`   | Layout adapting to various screen sizes     |
-| `media-queries.html`       | Applying styles based on device width       |
-| `flexbox-responsive.html`  | Responsive design using Flexbox             |
-| `grid-responsive.html`     | Responsive design using CSS Grid            |
+| File Name                  |
+|----------------------------|
+| `class1`  | 
+| `class2`     | 
+| `Hiremebtn.html`   | 
+| `class1HWBlogWebsite`       | 
+| `Modern Chair`  | 
+| `portfolioWebsite`     | 
 
 ---
 
 ## 💻 Projects
 
-### 🟢 Animated Landing Page
-A landing page featuring engaging animations to enhance user experience.
+### 🟢 Blog Website
+A simple and clean blog website layout showcasing multiple articles or blog posts with intuitive structure and styling.  
+🔗 [See Live](https://blog-website-orpin-xi.vercel.app)
 
 ### 🟣 Responsive Portfolio
-A portfolio layout that adjusts seamlessly across devices using media queries and flexible layouts.
+A responsive sample personal portfolio website that adapts seamlessly across all screen sizes using media queries and modern layout techniques.  
+🔗 [See Live](https://sample-portfolio-website-eight.vercel.app)
+
+### 🟠 Modern Chair
+A sleek and modern e-commerce product card for a chair item, featuring smooth hover effects and a fully responsive design.  
+🔗 [See Live](https://ecommerce-modern-chair-demo.vercel.app)
+
 
 ---
 

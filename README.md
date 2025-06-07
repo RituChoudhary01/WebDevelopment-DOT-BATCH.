@@ -3,6 +3,8 @@ _A complete journey through the MERN Stack by Ritu Choudhary_
 
 Welcome to my journey through the **DOT Batch** — an intensive, full-stack web development bootcamp led by **Love Babbar** . This repository contains **structured folders, codebases, notes, cheat sheets, assignments**, and **real-world projects** as I build my mastery in the **MERN Stack**.
 
+<img width="1470" alt="Screenshot 2025-06-07 at 8 31 39 AM" src="https://github.com/user-attachments/assets/2a9b91ad-48bb-4e47-b612-2e169683bae0" />
+
 ---
 
 ## 📌 What You'll Find Here

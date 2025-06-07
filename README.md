@@ -486,8 +486,8 @@ This folder contains several practice files to reinforce the concepts learned:
 ---
 
 ## ✅ Week Summary
+This week marked a significant step in boosting the interactivity of web pages. By learning how to manipulate the DOM and applying modern JavaScript techniques, I’ve gained the ability to create responsive and engaging user interfaces. These fundamental skills are crucial for developing real-world web applications and serve as a strong foundation for diving into more advanced topics such as JavaScript frameworks and libraries.
 
-This week was pivotal in enhancing the interactivity of web pages. By mastering DOM manipulation and embracing modern JavaScript features, I can now create dynamic and responsive user interfaces. These skills are essential for building real-world web applications and set the foundation for learning advanced topics like frameworks and libraries.
 ---
 # 📘 JavaScript Practice Exercises
 
@@ -517,6 +517,7 @@ This folder contains **5 JavaScript files**, each with **10 practice questions**
 | `jsExercise3.js`    |
 | `jsExercise4.js`    | 
 | `jsExercise5.js`    | 
+
 Each file contains **10 beginner-to-intermediate level questions** with a focus on real-world logic, syntax mastery, and problem-solving.
 
 ---
@@ -686,9 +687,9 @@ npm start
 
 ## 💻 Projects
 
-### 🟢 Counter App (Redux)
+### 🟢 Counter App 
 A simple yet powerful counter application built using **React**. Demonstrates effective state management and clean architecture for beginners.
-🔗 [See Live](https://counter-using-redux-theta.vercel.app)
+🔗 [See Live](https://bat-ball-stump-game-7xhl.vercel.app)
 
 ### 🟣 Plan With Love – Shopping Cart
 An elegant and functional shopping cart application using **React and Redux**. Includes features like adding/removing items from the cart and real-time cart state updates.
@@ -700,17 +701,14 @@ A dynamic course filtering website created with **React**. Features interactive 
 
 ### 🟣 Testimonials Slider
 A modern, animated testimonial slider built in **React** using state and effects. Showcases real-time feedback transitions with sleek UI and responsiveness.
-🔗 [See Live](https://testimonials-slider-react-five.vercel.app)
+🔗 [See Live](https://testimonials-slider-react.vercel.app)
 
-🎯 Key Learnings
+
+## 🎯 Key Learnings
 React simplifies UI development using components and states
-
 JSX helps write HTML-like code within JavaScript
-
 Props and state management are crucial for interactivity
-
 Event handling and conditional rendering bring apps to life
-
 Mapping data dynamically helps build scalable UIs
 
 ✅ Week Summary
@@ -1000,6 +998,12 @@ This week dives deep into the critical backend concepts of **Authentication** an
 - Middleware helps maintain clean and modular code
 
 ---
+
+# Mega Project: Study Notion (Edtech Project) (1-1.5 months) 
+
+StudyNotion is a full-stack EdTech web application built using the MERN stack. It features secure role-based authentication, allowing users to register as students or instructors. Instructors can create, edit, and manage courses with structured content including sections, sub-sections, and video uploads via Cloudinary. Students can explore courses, enroll using Razorpay, track their progress, and submit reviews. The platform uses JWT for protected routes, Redux Toolkit for state management, and Tailwind CSS for responsive design. With real-world LMS features and a clean UI, StudyNotion delivers a complete online learning and teaching experience for modern education.
+
+
 
 
 

@@ -606,6 +606,273 @@ This week’s project helped me solidify my understanding of JavaScript fundamen
 Creating this Tic Tac Toe game was a fun and effective way to enhance my logic and coding skills.
 
 ---
+# ⚛️ Week 9 – React Basics
+
+_Folder: `010week9reactbasics`_
+
+Welcome to **Week 9** of my Web Development DOT Batch journey! This week, I started exploring **React.js**, a powerful JavaScript library for building fast and interactive user interfaces using a component-based architecture.
+
+---
+
+## 📝 Topics Covered
+
+### 🔹 Introduction to React
+- What is React and why use it?
+- Advantages over traditional DOM manipulation
+- Virtual DOM and component-based structure
+
+### 🔹 Setting Up React
+- Installing Node.js and npm
+- Creating a React project using `create-react-app`
+- Folder structure of a React project
+
+### 🔹 JSX (JavaScript XML)
+- Writing HTML-like syntax in JavaScript
+- Embedding expressions
+- JSX rules (single root element, className, self-closing tags)
+
+### 🔹 Components
+- Functional Components
+- Returning JSX from components
+- Breaking UI into smaller reusable parts
+
+### 🔹 Props
+- Passing data from parent to child
+- Accessing and displaying props in components
+
+### 🔹 useState Hook
+- Declaring state variables in functional components
+- Updating and using state
+- Toggling state with button clicks
+
+### 🔹 Handling Events
+- Adding event listeners to elements
+- Event handler functions
+
+### 🔹 Conditional Rendering
+- Using `if` conditions and ternary operators
+- Show/Hide elements dynamically
+
+### 🔹 Mapping Over Arrays
+- Rendering lists using `Array.map()`
+- Using `key` props
+
+---
+
+## 🧪 Practice Projects
+
+This folder contains multiple mini React apps and exercises for practicing each concept:
+
+| Folder Name             | 
+|--------------------------|
+| `reactclass1`              | 
+| `reactclass2`                   | 
+| `reactclass4`             | 
+| `counterApp`                 | 
+| `plan-with-Love-cart-project`                 |
+| `Top-courses-react-project`                 | 
+| `testimonials-slider-Project`  | 
+
+---
+
+## 💻 Demos & Highlights
+
+Although not deployed, these local demos highlight foundational React concepts. You can run each folder’s app using:
+
+```bash
+npm install
+npm start
+```
+
+## 💻 Projects
+
+### 🟢 Counter App (Redux)
+A simple yet powerful counter application built using **React**. Demonstrates effective state management and clean architecture for beginners.
+🔗 [See Live](https://counter-using-redux-theta.vercel.app)
+
+### 🟣 Plan With Love – Shopping Cart
+An elegant and functional shopping cart application using **React and Redux**. Includes features like adding/removing items from the cart and real-time cart state updates.
+🔗 [See Live](https://shopping-cart-react-omega-nine.vercel.app)
+
+### 🟠 Top Courses App
+A dynamic course filtering website created with **React**. Features interactive UI, category filters, and course listings based on user interest and likes.
+🔗 [See Live](https://top-courses-react-ten.vercel.app)
+
+### 🟣 Testimonials Slider
+A modern, animated testimonial slider built in **React** using state and effects. Showcases real-time feedback transitions with sleek UI and responsiveness.
+🔗 [See Live](https://testimonials-slider-react-five.vercel.app)
+
+🎯 Key Learnings
+React simplifies UI development using components and states
+
+JSX helps write HTML-like code within JavaScript
+
+Props and state management are crucial for interactivity
+
+Event handling and conditional rendering bring apps to life
+
+Mapping data dynamically helps build scalable UIs
+
+✅ Week Summary
+This week marked my exciting entry into React. Learning how to manage state, pass props, and build reusable components gave me a strong foundation to build powerful user interfaces. I’m now ready to level up with React Router, lifecycle methods, and hooks in the coming weeks
+
+# 🚀 Week 10 – React Intermediate
+
+_Folder: `011week10ReactIntermediate`_
+
+Welcome to **Week 10** of my Web Development DOT Batch journey! This week was focused on mastering intermediate-level React concepts including advanced hooks, routing, and starting work on a real-world full-stack project: **StudyNotion**.
+
+---
+
+## 📝 Topics Covered
+
+### 🔹 React Fragments & Reusability
+- Understanding React Fragments to avoid unnecessary DOM nodes
+- Component reusability best practices
+
+### 🔹 useEffect Hook
+- Fetching data on component mount
+- Managing side effects in functional components
+- Dependency array and cleanup functions
+
+### 🔹 Conditional Rendering (Advanced)
+- Loading states and conditional UI updates
+- Controlled vs uncontrolled components
+
+### 🔹 Forms in React
+- Handling input fields with controlled components
+- Capturing form data using `useState`
+- Submitting forms with `onSubmit`
+- Input validation basics
+- Creating dynamic, reusable form components
+
+### 🔹 React Router (v6+)
+- Introduction to **React Router DOM**
+- `BrowserRouter`, `Routes`, `Route`
+- Navigating with `Link` and `useNavigate`
+- Dynamic Routing and Route Parameters
+- Nested Routing and Layouts
+
+---
+
+## 📁 Folder Structure
+
+| Folder Name         | 
+|---------------------|
+| `class1`            | 
+| `class2`            | 
+| `react-router`      | 
+| `studyNotion`       | 
+---
+
+## 💻 Projects & Demos
+
+### 🟢 StudyNotion 
+A powerful, modern Learning Management System built with **React**, **Tailwind CSS**, and **React Router**. Includes login and signup form UI 
+🔗 [See Live](https://study-notion-react-eta.vercel.app)
+
+### 🟣 React Form
+A responsive form built with React, using React Hook Form for efficient validation and styled-components for styling. Showcases modern form handling, component styling, and state management in React.
+🔗 [See Live](https://form-using-react-gamma.vercel.app)
+
+---
+
+## 🎯 Key Learnings
+
+- Mastered the use of `useEffect` for side-effects and data lifecycle
+- Gained hands-on experience with **React Router v6**
+- Learned to manage reusable components with props and conditional rendering
+- Took the first major step into full-stack project building with **StudyNotion**
+
+---
+
+## ✅ Week Summary
+
+This week was all about bridging the gap between basic and real-world React. With routing, advanced hooks, and project structuring under my belt, I’m ready to integrate backend logic, authentication, and state management libraries in the upcoming weeks!
+
+# 🚀 Week 11 – React Advanced
+
+_Folder: `012week11ReactAdvanced`_
+
+Welcome to **Week 11** of my Web Development DOT Batch journey! This week I leveled up my React skills by exploring **Context API**, **Redux Toolkit**, advanced **state management**, and creating multiple real-world mini-projects.
+
+---
+
+## 📝 Topics Covered
+
+### 🔹 React Context API
+- Introduction to Context and its use cases
+- Creating and providing context values
+- Accessing shared data across components using `useContext`
+- Avoiding prop drilling with context
+
+### 🔹 Redux Toolkit
+- Setting up a Redux store using `@reduxjs/toolkit`
+- Creating slices with actions and reducers
+- Dispatching actions to update global state
+- Connecting Redux state to components using `useSelector` and `useDispatch`
+
+### 🔹 Advanced State Management
+- Managing global vs local state
+- Handling async operations and updates
+- Combining Context and Reducers
+
+### 🔹 Project Structuring & Componentization
+- Organizing project files and logic for scalability
+- Creating reusable UI components
+
+---
+
+## 💻 Projects & Demos
+
+### 🟢 Random GIF Generator
+An engaging project that fetches and displays random GIFs using the GIPHY API. Users can search and generate GIFs instantly.
+- 💡 Concepts: `useEffect`, `useState`, `fetch API`
+🔗 [See Live](https://random-gif-generator-react.vercel.app)
+
+---
+
+### 🟣 Blogs Website Using Context API
+A simple blog app built using **React Context API** for theme toggling and blog data sharing without prop drilling.
+- 💡 Concepts: `Context API`, `useContext`, routing, theming
+🔗 [See Live](https://blog-website-react-navy.vercel.app)
+
+---
+
+### 🟠 Counter App Using Redux Toolkit
+A powerful and clean counter application built with **Redux Toolkit**, showcasing centralized state and real-time UI updates.
+- 💡 Concepts: `Redux Toolkit`, `Slice`, `useDispatch`, `useSelector`
+🔗 [See Live](https://counter-using-redux-theta.vercel.app)
+
+---
+
+### 🔵 Shopping Cart with Redux
+A responsive shopping cart project using **Redux** to manage global cart state, with features like add-to-cart, remove item, and total cart value.
+- 💡 Concepts: `Redux`, `Global Store`, `Cart Logic`, `React Components`
+🔗 [See Live](https://shopping-cart-react-omega-nine.vercel.app)
+
+---
+
+## 🎯 Key Learnings
+
+- Learned global state management using both **Context API** and **Redux Toolkit**
+- Understood the differences and use cases for local vs global state
+- Practiced real-world applications like shopping cart and blog apps
+- Gained deeper understanding of reusable components and clean architecture
+- Built confidence working with asynchronous data and external APIs
+
+---
+
+## ✅ Week Summary
+
+This week marked a major milestone in my React journey. I transitioned from foundational knowledge to advanced state management using **Redux Toolkit** and **Context API**. Each project gave me hands-on experience with real-world features that are commonly used in professional React applications. I’m now fully prepared to dive into full-stack integration and backend connectivity next!
+
+
+
+
+
+
+
 
 
 

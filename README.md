@@ -867,6 +867,142 @@ A responsive shopping cart project using **Redux** to manage global cart state, 
 
 This week marked a major milestone in my React journey. I transitioned from foundational knowledge to advanced state management using **Redux Toolkit** and **Context API**. Each project gave me hands-on experience with real-world features that are commonly used in professional React applications. I’m now fully prepared to dive into full-stack integration and backend connectivity next!
 
+# Week 12: Backend Development with Express.js
+
+This week marks the beginning of backend development using **Node.js**, **Express.js**, **MongoDB**, and **Postman**. We focused on setting up the backend folder structure, understanding the flow within folders, and learning how to interact with APIs using Postman.
+
+## Topics Covered
+
+- Setting up backend folder structure
+- Understanding the flow of folders and files
+- Introduction to MongoDB and Mongoose
+- Creating APIs using Express.js
+- Testing APIs using Postman
+
+
+## 📁 Folder Structure
+
+| Folder Name         | 
+|---------------------|
+| `BackEndClass1`            | 
+| `class2todoApp`            | 
+| `class3todoAppComplate`      | 
+| `class4blogApp`       | 
+| `class5`            |
+| `class6`            |
+
+---
+
+
+## Projects
+
+### 1. To-Do App Backend
+
+- Implemented CRUD operations for tasks
+- Integrated MongoDB for data persistence
+- Tested APIs using Postman
+
+### 2. Blog App Backend
+
+- Developed APIs for creating, reading, updating, and deleting blog posts
+- Structured routes and controllers effectively
+- Ensured proper error handling and response statuses
+
+## Key Learnings
+
+- **Express.js**: Setting up servers and defining routes
+- **MongoDB & Mongoose**: Designing schemas and interacting with the database
+- **Postman**: Testing and validating API endpoints
+- **Folder Structure**: Organizing code for scalability and maintainability
+- 
+## ✅ Week Summary
+This week gave me a solid foundation in backend development and prepared me to build full-stack applications by connecting frontend and backend efficiently.
+
+# Week 13: Authentication & Authorization (AuthN & AuthZ)
+
+This week dives deep into the critical backend concepts of **Authentication** and **Authorization** — essential for building secure and user-friendly web applications.
+
+## 🚀 What I Learned
+
+- **Authentication (AuthN):** Verifying user identity using techniques like JWT, sessions, and OAuth.
+- **Authorization (AuthZ):** Controlling user access to resources based on roles and permissions.
+- Secure password handling using **bcrypt** for hashing.
+- Implementation of **role-based access control (RBAC)** to manage different user privileges.
+- Best practices for protecting APIs and sensitive routes.
+- Integration of authentication flows into backend applications.
+
+---
+
+## 📁 Folder Structure
+
+| Folder Name         | 
+|---------------------|
+| `Class1AuthApp `  | 
+| `Class2AuthApp  ` | 
+| `Class3AuthApp `  | 
+
+---
+
+## 🔑 Key Takeaways
+
+- Secure your backend APIs with authentication & authorization
+- Use JWT to maintain session state without server memory
+- Protect sensitive routes and operations using role-based permissions
+- Always hash passwords before storing them in the database
+- Apply middleware to centralize security checks and keep code clean
+
+  
+# Week 14: Form & Image Handling using Cloudinary
+ Mastering file uploads and media management in web applications with Cloudinary. This week, I focused on handling **forms** and **image uploads** efficiently in backend applications.I learned how to integrate **Cloudinary**, a powerful cloud-based media management service, to store, manage, and deliver images seamlessly.
+
+---
+
+## 📝 Topics Covered
+
+- Handling multipart/form-data forms in Express.js  
+- Uploading images to **Cloudinary** via backend APIs  
+- Configuring Cloudinary account and environment variables  
+- Managing image URLs and metadata  
+- Implementing secure and scalable file uploads  
+- Validating image types and sizes  
+- Deleting and updating images on Cloudinary  
+- Integrating frontend forms with backend upload APIs
+
+---
+
+
+## 📁 Folder Structure
+
+| Folder Name         | 
+|---------------------|
+| `FileUpload`            | 
+| `FileUploadandMailSand` |
+
+---
+
+## 🔥 What I Built & Learned
+
+- Setup Express backend to accept file uploads using `multer` middleware  
+- Configured Cloudinary SDK for seamless cloud storage integration  
+- Built APIs to upload images and return secure URLs  
+- Implemented validation for image format and size before upload  
+- Enabled image update and deletion features via Cloudinary API  
+- Connected frontend forms to backend endpoints for real-time image upload
+
+---
+
+## 💡 Key Takeaways
+
+- Cloudinary simplifies media management with powerful APIs  
+- Proper validation and error handling are essential for file uploads  
+- Using cloud storage reduces server load and improves scalability  
+- Securely handling environment variables keeps credentials safe  
+- Middleware helps maintain clean and modular code
+
+---
+
+
+
 
 
 
